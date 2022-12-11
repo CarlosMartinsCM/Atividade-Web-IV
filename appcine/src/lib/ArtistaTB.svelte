@@ -3,7 +3,7 @@
 
     async function getArtista_by_name() {
         const res = await fetch(
-            `http://localhost:8000/artista/nome/Tom Welling`
+            `http://localhost:8000/artista/nome/Jennifer Aniston`
         );
         const text = await res.json();
         if (res.ok) {
