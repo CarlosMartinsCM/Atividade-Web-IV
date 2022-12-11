@@ -21,7 +21,7 @@
 <!-- <button on:click={handleClick}> Listar artista </button> -->
 
 {#await promise}
-    <p>...waiting</p>
+    <p>Carregando...</p>
 {:then artista}
     <div class="table">
         <!-- {#each artista as a} -->

@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <p>Artista</p>
+  <p>Artista TMDB</p>
   <div class="card">
     <Artista />
   </div>

@@ -26,9 +26,9 @@
     <table class="border-collapse border border-slate-400">
         <thead>
             <tr>
-                <th class="border border-slate-300">id</th>
+                <th class="border border-slate-300">ID</th>
                 <th class="border border-slate-300">Nome</th>
-                <th class="border border-slate-300">popularidade</th>
+                <th class="border border-slate-300">Popularidade</th>
                 <th class="border border-slate-300">Imagem</th>
             </tr>
         </thead>
@@ -43,8 +43,8 @@
                     <img
                         src="https://image.tmdb.org/t/p/w185{artista['imagem']}"
                         alt="imagem do artista"
-                        width="100"
-                        height="100"
+                        width="200"
+                        height="200"
                     />
                 </td></tr
             >
