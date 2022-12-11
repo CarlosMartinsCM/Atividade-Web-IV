@@ -3,7 +3,7 @@
 
     async function getArtista_by_name() {
         const res = await fetch(
-            `http://localhost:8000/artista/nome/Jennifer Aniston`
+            `http://localhost:8000/artista/nome/Gal Gadot`
         );
         const text = await res.json();
         if (res.ok) {
