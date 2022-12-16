@@ -1,7 +1,7 @@
 import requests
 from tmdb.models import TMDBMovie, Genre
 
-key = 'd1da20fbfa65312b857fb7b517bf855c'
+key = 'b007f60e4db65ef733b4920c73d65a8e'
 
 
 class RequestApi:

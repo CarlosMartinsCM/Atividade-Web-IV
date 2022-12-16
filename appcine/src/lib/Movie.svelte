@@ -30,6 +30,7 @@ list movies
 
 <div class="table">
     {#each movies as m }
+        <!-- svelte-ignore a11y-missing-attribute -->
         <p><img src="{m.poster_path}"/></p>
         <!-- <p>{m.id}</p> -->
         <p>{m.title}</p>

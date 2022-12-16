@@ -23,7 +23,7 @@
 {#await promise}
     <p>Carrengando...</p>
 {:then artista}
-    <table class="border-collapse border border-slate-400">
+    <table id="table" class="border-collapse border border-slate-400">
         <thead>
             <tr>
                 <th class="border border-slate-300">ID</th>
